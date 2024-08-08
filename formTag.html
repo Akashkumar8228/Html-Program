@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+  <form action="">
+      <fieldset>
+        <legend>Registration From</legend>
+    
+
+    <!-- for or id USED FOR CONNECTION BETWEEN LABEL AND INPUT FIELD -->
+    <!-- label tag use for making label -->
+    <!-- input tag use for creating input field -->
+
+     <label for="USER NAME">UserName : </label>
+     <input type="text" name="" id="USER NAME" placeholder="Enter your name" required readonly value="Akash">  
+     <br>
+     <label for="EMAIL">Email : </label>
+     <input type="email" name="" id="EMAIL" placeholder="Enter your Gmail" >
+     <br>
+     <label for="PHONENUMBER">PhoneNumber : </label>
+     <input type="tel" name="" id="PHONENUMBER" placeholder="Enter your Phone number" >
+     <br>
+     <label for="PASSWORD">Password: </label>
+     <input type="password" name="" id="PASSWORD" placeholder="Enter your password" >
+     <br>
+     <label for="CITY">City</label>
+     <select name="" id="CITY">
+
+         <!-- selected desabled attribute -->
+         <option value="" selected disabled>Select city Name</option>
+         <option value="">Muzaffarpur</option>
+         <option value="">Patna</option>
+         <option value="">Gurugram</option>
+         <option value="">Delhi</option>
+     </select>
+     <br>
+     <label for="">Address : </label>
+     <!-- TO take multi line we have  "textarea" we can change its size also -->
+     <textarea name="" id="" rows="4" cols="20"></textarea >
+     <br>
+
+     <label for="">Gender : </label>
+     <input type="radio" name="Gender" id="Male">
+     <label for="Male">Male</label>
+     <input type="radio" name="Gender" id="Female">
+     <label for="Female">Female</label>
+     <input type="radio" name="Gender" id="Others">
+     <label for="Others">Others</label>
+     <br>
+     <label for="">Skills : </label>
+     <label for="JAVA">JAVA</label>
+     <input type="checkbox" name="" id="JAVA">
+     <label for="SQL">SQL</label>
+     <input type="checkbox" name="" id="SQL">
+     <label for="AJ">ADVANCE JAVA</label>
+     <input type="checkbox" name="" id="AJ">
+     <label for="WT">WEB TECH</label>
+     <input type="checkbox" name="" id="WT"> 
+     <br>
+     <label for="">Upload Your Resume</label>
+     <input type="file" name="" id="">
+     <br>
+     <label for="SC">Select Color</label>
+     <input type="color" name="" id="SC">
+     <br>
+     <label for="">Select Quentity : </label>
+     <input type="number" name="" id="" min="10" max="20">
+     <br>
+     <input type="range" name="" id="">
+     <br>
+     <input type="submit" value="Submit">
+     <br>
+     <input type="reset" value="Reset">
+     <br>
+     <label for="">Dob</label>
+     <input type="date" name="" id="">
+     <br>
+     <label for="">Time</label>
+     <input type="time" name="" id="">
+     
+</fieldset>
+  </form>
+
+        
+</body>
+</html>
+
+
+<!-- 
+VALIDATION ATTRIBUTE IN HTML FORM
+    THERE ARE 12 TYPES OF VALIDATION ATTRIBUTE IN HTML FORM
+
+   ** VVI TOPIC**
+
+    1.Placeholder              8.Max
+    2.Readonly                 9.Min
+    3.Disable                  10.Pattern
+    4.Size                     11.Required
+    5.Maxlength                12.Selected
+    6.Minlength
+    7.max
+
+1.placeholder = use to give the name
+2.Readonly = you can only select but not write anything
+3.Disabled  = you cann't select the box
+4.size = changed the size of input data and box also
+5.step = if step = 5 step goes like 5,10,15... use in input:number.
+6.Maxlength minlength gives length
+11.Required = neccessay to give input
+10.Pattern = A-Z 0-9
+8.Max = decide max length
+9.Min = Decide min length
+
+* Read only vale is fix the length.
+-->
